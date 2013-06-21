@@ -36,8 +36,10 @@ StatService.get().stop();
 ```
 
 **Builds**
-
-https://github.com/ClickerMonkey/statastic/tree/master/build
+- [statastics-1.0.0.jar](https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-1.0.0.jar?raw=true)
+- [statastics-src-1.0.0.jar](https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-src-1.0.0.jar?raw=true) *- includes source code*
+- [statastics-all-1.0.0.jar](https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-1.0.0.jar?raw=true) *- includes all dependencies*
+- [statastics-all-src-1.0.0.jar](https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-src-1.0.0.jar?raw=true) *- includes all dependencies and source code*
 
 **Dependencies**
 - [daperz](https://github.com/ClickerMonkey/daperz)
@@ -47,5 +49,4 @@ https://github.com/ClickerMonkey/statastic/tree/master/build
 - [testility](https://github.com/ClickerMonkey/testility) *for unit tests*
 
 **Testing Examples**
-
-https://github.com/ClickerMonkey/statastic/tree/master/Testing/org/magnos/stat
+- [Testing/org/magnos/stat](https://github.com/ClickerMonkey/statastic/tree/master/Testing/org/magnos/stat)
