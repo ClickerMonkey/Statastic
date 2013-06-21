@@ -1,18 +1,19 @@
-<project name="Taskaroo" default="build" basedir=".">
+<project name="Statastic" default="build" basedir=".">
 	<description>Phils Projects Build</description>
 
 	<!-- set global properties for this build -->
 	<property name="src-curity" location="../Concurrency-Utility/Source"/>
 	<property name="src-zource" location="../Resource/Source"/>
 	<property name="src-surfice" location="../Service/Source"/>
-	<property name="src-taskaroo" location="../Task/Source"/> 
+	<property name="src-daperz" location="../Data-Persistence/Source"/>
+	<property name="src-statastic" location="../Statistics/Source"/>
 	
-	<property name="src" location="${src-taskaroo}"/>
+	<property name="src" location="${src-statastic}"/>
 	<property name="build" location="build"/>
 	<property name="bin" location=".bin"/>
 	<property name="bin-all" location=".bin-all"/>
 	<property name="version" value="1.0.0"/>
-	<property name="project" value="taskaroo"/>
+	<property name="project" value="statastics"/>
 
 	<target name="init">
 		<!-- Create the bin directory structure used by compile -->
@@ -26,7 +27,8 @@
 		<javac srcdir="${src-curity}" destdir="${bin-all}" optimize="on"/>
 		<javac srcdir="${src-zource}" destdir="${bin-all}" optimize="on"/>
 		<javac srcdir="${src-surfice}" destdir="${bin-all}" optimize="on"/>
-		<javac srcdir="${src-taskaroo}" destdir="${bin-all}" optimize="on"/>
+		<javac srcdir="${src-daperz}" destdir="${bin-all}" optimize="on"/>
+		<javac srcdir="${src-statastic}" destdir="${bin-all}" optimize="on"/>
 		
 		<!-- Compile the java code from ${src} into ${bin} -->
 		<javac srcdir="${src}" destdir="${bin}" classpath="${bin-all}" optimize="on"/>
@@ -55,7 +57,8 @@
 			<fileset dir="${src-curity}"/>
 			<fileset dir="${src-zource}"/>
 			<fileset dir="${src-surfice}"/>
-			<fileset dir="${src-taskaroo}"/>
+			<fileset dir="${src-daperz}"/>
+			<fileset dir="${src-statastic}"/>
 		</jar>
 	</target>
 	

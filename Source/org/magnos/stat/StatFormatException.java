@@ -14,54 +14,43 @@
  * 				Open Software License (OSL 3.0)
  */
 
-package org.magnos.task;
+package org.magnos.stat;
 
 /**
- * A clone of a task used for forking. This task merely calls the parent tasks
- * execute method.
+ * A problem occurred parsing an existing Store with a given StatFormat.
  * 
  * @author Philip Diffenderfer
  *
- * @param <R>
- * 		The result type.
  */
-public class TaskFork<R> extends Task<R> 
+public class StatFormatException extends RuntimeException 
 {
-
-	// The parent task to invoke.
-	private final Task<R> parent;
 	
 	/**
-	 * Instantiates a new TaskClone given the parent task.
+	 * The format which thrown the exception.
+	 */
+	private StatFormat format;
+	
+	
+	/**
+	 * Instantiates a new StatFormatException.
 	 * 
-	 * @param parent
-	 * 		The parent of this task.
+	 * @param format
+	 * 		The format thats throwing the exception.
+	 * @param message
+	 * 		The message describing the reason for throwing the exception.
 	 */
-	public TaskFork(Task<R> parent) 
+	public StatFormatException(StatFormat format, String message) 
 	{
-		this.parent = parent;
-		this.setHandler(parent.getHandler());
-		this.setTimeout(parent.getTimeout());
+		super(message);
+		this.format = format;
 	}
 	
 	/**
-	 * {@inheritDoc}
+	 * Returns the format that threw this exception.
 	 */
-	@Override
-	public R execute() 
+	public StatFormat getFormat() 
 	{
-		return parent.execute();
+		return format;
 	}
 	
-	/**
-	 * Returns the parent of this forked task.
-	 * 
-	 * @return
-	 * 		The reference to the parent task.
-	 */
-	public Task<R> getParent()
-	{
-		return parent;
-	}
-
 }
