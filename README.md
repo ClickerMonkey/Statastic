@@ -39,6 +39,13 @@ StatService.get().stop();
 
 https://github.com/ClickerMonkey/statastic/tree/master/build
 
+**Dependencies**
+- [daperz](https://github.com/ClickerMonkey/daperz)
+- [curity](https://github.com/ClickerMonkey/curity)
+- [surfice](https://github.com/ClickerMonkey/surfice)
+- [buffero](https://github.com/ClickerMonkey/buffero)
+- [testility](https://github.com/ClickerMonkey/testility) *for unit tests*
+
 **Testing Examples**
 
 https://github.com/ClickerMonkey/statastic/tree/master/Testing/org/magnos/stat
