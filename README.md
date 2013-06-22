@@ -15,6 +15,9 @@ A Java library for tracking statistics over time in a round robin database. A ro
 - A group of databases stored in a folder can be handled/loaded all with one class (StatGroup).
 - Memory-mapped databases are fast in memory databases that the OS flushes out to a file - this is the most reliable store type.
 
+**Documentation**
+- [JavaDoc](http://clickermonkey.github.com/statastic/)
+
 **Example**
 
 ```java
