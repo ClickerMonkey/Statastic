@@ -16,7 +16,7 @@ A Java library for tracking statistics over time in a round robin database. A ro
 - Memory-mapped databases are fast in memory databases that the OS flushes out to a file - this is the most reliable store type.
 
 **Documentation**
-- [JavaDoc](http://clickermonkey.github.com/statastic/)
+- [JavaDoc](http://gh.magnos.org/?r=http://clickermonkey.github.com/statastic/)
 
 **Example**
 
@@ -51,17 +51,17 @@ StatService.get().stop();
 ```
 
 **Builds**
-- [statastics-1.0.0.jar](https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-1.0.0.jar?raw=true)
-- [statastics-src-1.0.0.jar](https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-src-1.0.0.jar?raw=true) *- includes source code*
-- [statastics-all-1.0.0.jar](https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-1.0.0.jar?raw=true) *- includes all dependencies*
-- [statastics-all-src-1.0.0.jar](https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-src-1.0.0.jar?raw=true) *- includes all dependencies and source code*
+- [statastics-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-1.0.0.jar?raw=true)
+- [statastics-src-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-src-1.0.0.jar?raw=true) *- includes source code*
+- [statastics-all-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-1.0.0.jar?raw=true) *- includes all dependencies*
+- [statastics-all-src-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/statastic/blob/master/build/statastics-src-1.0.0.jar?raw=true) *- includes all dependencies and source code*
 
 **Dependencies**
-- [daperz](https://github.com/ClickerMonkey/daperz)
-- [curity](https://github.com/ClickerMonkey/curity)
-- [surfice](https://github.com/ClickerMonkey/surfice)
-- [buffero](https://github.com/ClickerMonkey/buffero)
-- [testility](https://github.com/ClickerMonkey/testility) *for unit tests*
+- [daperz](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/daperz)
+- [curity](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/curity)
+- [surfice](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/surfice)
+- [buffero](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/buffero)
+- [testility](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/testility) *for unit tests*
 
 **Testing Examples**
-- [Testing/org/magnos/stat](https://github.com/ClickerMonkey/statastic/tree/master/Testing/org/magnos/stat)
+- [Testing/org/magnos/stat](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/statastic/tree/master/Testing/org/magnos/stat)
