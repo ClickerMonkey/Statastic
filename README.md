@@ -1,6 +1,8 @@
 statastic
 =========
 
+![Stable](http://i4.photobucket.com/albums/y123/Freaklotr4/stage_stable.png)
+
 A Java library for tracking statistics over time in a round robin database. A round robin database is a fixed size database with several time spans it accumulates statistics over.
 
 **Terminology**
