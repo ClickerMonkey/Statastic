@@ -12,6 +12,7 @@ A Java library for tracking statistics over time in a round robin database. A ro
 
 **Features**
 - A database can be stored in memory, in a file, or in a memory-mapped file
+- Adding statistics to databases is a non-blocking operation that adds virtually no overhead.
 - All data can be written out to the backing store (memory or file) whenever there's a statistic added or at some interval.
 - An archive can be exported to a chart as a PNG, JPG, BMP, or a data file (CSV).
 - A group of databases stored in a folder can be handled/loaded all with one class (StatGroup).
